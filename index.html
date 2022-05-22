@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap 5.2 Core -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="custom.css">
+    <!-- In-Code Style -->
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container my-3">
+        <div class="row">
+            <div class="col text-center">
+                <!-- button_click() fonksiyonuna buradan erişilebilir. Olay örgüsü onclick olarak seçildi.-->
+                <button class="btn btn-lg btn-outline-danger" onclick="
+                        button_click1(); 
+                        button_click2(); 
+                        console.log('In-Line Script')
+                        ">
+                    Tıkla
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-auto">
+                <button class="btn btn-danger" ondblclick="red()">Kırmızıya boya</button><br>
+                <button class="btn btn-success" onclick="">Yeşile boya</button><br>
+                <button class="btn btn-warning">Sarıya boya</button><br>
+            </div>
+            <div class="col">
+                <p id="p1" class="pr">Lorem ipsum dolor sit amet.</p>
+                <p class="pr">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p class="pr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum maxime similique maiores nihil error?</p>
+                <p name="son" class="pr">Lorem ipsum dolor sit.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap 5.2 Bundle Core -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Scripts -->
+    <!--<script src="custom.js"></script>-->
+    <script src="events.js"></script>
+    <!-- In-Code Script -->
+    <script>
+
+    </script>
+</body>
+
+</html>
