@@ -29,3 +29,8 @@ var green = () => {
         p.classList.add('text-ilker')
     }
 }
+
+var yellow = () => {
+    let p1 = document.getElementById('p1');
+    p1.classList.add('text-warning')
+}
